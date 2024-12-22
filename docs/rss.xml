@@ -1,2 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sat, 22 Jun 2024 12:28:20 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>Hello World</title><link>https://baib-web.github.io/post/Hello%20World.html</link><description>Hello World。</description><guid isPermaLink="true">https://baib-web.github.io/post/Hello%20World.html</guid><pubDate>Sat, 22 Jun 2024 12:27:55 +0000</pubDate></item></channel></rss>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sun, 22 Dec 2024 10:23:25 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>节点分享</title><link>https://baib-web.github.io/post/jie-dian-fen-xiang.html</link><description># 我的服务器&#13;
+&#13;
+`vless://a9f80339-b687-4775-bac7-b3ef4928ffc3@148.135.66.234:19135?type=tcp&amp;security=none#1jzw7n3v`&#13;
+&#13;
+`vmess://ewogICJ2IjogIjIiLAogICJwcyI6ICJ4N2cwZDI1NiIsCiAgImFkZCI6ICIxNDguMTM1LjY2LjIzNCIsCiAgInBvcnQiOiA0MjkwMSwKICAiaWQiOiAiZDY5ZmMzYjYtNTE0Ny00OWU0LWIzYWUtYjA3YmQ4Yzc0ZDZlIiwKICAibmV0IjogIndzIiwKICAidHlwZSI6ICJub25lIiwKICAidGxzIjogIm5vbmUiLAogICJwYXRoIjogIi8kJjE5NDMiLAogICJob3N0IjogIiIKfQ==`&#13;
+&#13;
+`trojan://9UM9G0GdC9@148.135.66.234:25593?type=ws&amp;path=%2F&amp;host=&amp;security=none#j7xxygpz`&#13;
+&#13;
+# CF Page&#13;
+&#13;
+`https://vless.lowol.us.kg/e46c7ae1-f71b-4339-9816-a586317efbff?sub=VLESS.fxxk.dedyn.io#vless.lowol-CM`&#13;
+`https://vless.lowol.us.kg/e46c7ae1-f71b-4339-9816-a586317efbff#vless.lowol`&#13;
+`https://vless.lowol.us.kg/e46c7ae1-f71b-4339-9816-a586317efbff?sub=alvless.comorg.us.kg#vless.lowol-TC`&#13;
+`https://trojan.lowol.us.kg/2906c62a-ebbc-4401-8153-ed23d0a7fa2e?sub=alvless.comorg.us.kg#trojan.lowol-TC`&#13;
+`https://trojan.lowol.us.kg/2906c62a-ebbc-4401-8153-ed23d0a7fa2e#trojan.lowol`&#13;
+&#13;
+# 其他工艺节点&#13;
+&#13;
+`https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml#sub`&#13;
+&#13;
+。</description><guid isPermaLink="true">https://baib-web.github.io/post/jie-dian-fen-xiang.html</guid><pubDate>Sun, 22 Dec 2024 10:17:09 +0000</pubDate></item><item><title>Hello World</title><link>https://baib-web.github.io/post/Hello%20World.html</link><description>Hello World。</description><guid isPermaLink="true">https://baib-web.github.io/post/Hello%20World.html</guid><pubDate>Sat, 22 Jun 2024 12:27:55 +0000</pubDate></item></channel></rss>
