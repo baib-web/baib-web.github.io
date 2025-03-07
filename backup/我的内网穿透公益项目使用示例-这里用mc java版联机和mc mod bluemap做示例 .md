@@ -32,3 +32,4 @@ localPort = 8100
 #域名
 customDomains = ["bluemap.youzhidanbairu.cloudns.biz"]
 ```
+推荐客户端：[FRPmgr](https://github.com/koho/frpmgr/releases/tag/v1.19.2)
