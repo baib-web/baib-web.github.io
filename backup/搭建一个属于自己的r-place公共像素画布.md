@@ -1,3 +1,8 @@
+# 安装git
+```
+sudo apt update
+sudo apt install git
+```
 # 安装go编译
 `sudo apt-get update && sudo apt-get -y install golang-go `
 # 拉取代码
