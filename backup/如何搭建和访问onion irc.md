@@ -4,23 +4,24 @@
 我们先拆开来看 
 - Tor 网络 (Onion Network): 一种通过多层加密和匿名服务器路由网络流量 以隐藏用户身份和位置的技术
 - IRC: 一种实时的文本聊天协议
-- Onion IRC: 将 IRC 的实时聊天功能与 Tor 网络的匿名性相结合，提供匿名和安全的聊天环境 Onion IRC也是世界最大黑客团体匿名者推荐的通讯方式
-让我们开始学习如何搭建和访问一个onion irc（文章部分会采纳我参考的那篇文章）
+- Onion IRC: 将 IRC 的实时聊天功能与 Tor 网络的匿名性相结合，提供匿名和安全的聊天环境 
+- Onion IRC是世界最大黑客组织匿名者推荐的通讯聊天方式
 # 前置条件
 - 可以魔法上网
-- 一台境外的VPS Ubuntu系统
-- nano或vim文本编辑器
+- 一台境外的VPS且搭载了Ubuntu系统
 - 在你要访问Onion IRC的设备上下载[TOR专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
 - 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 # 搭建Onion IRC服务
 ## 安装inspircd和tor
 `sudo apt install -y inspircd tor`
-## 在/etc/inspircd/inspircd.motd中更改您的标题 如果您很懒的话 只需从我的标题中复制即可
+## 更改您的标题 如果您很懒的话 只需从我的标题中复制即可
+`nano /etc/inspircd/inspircd.motd`
 ```
 --------------------------------------
 隐私是一项人权 在这里畅所欲言吧
 --------------------------------------
 ```
+nano编辑器的保存步骤： ctrl x + Y + 回车
 ## 编辑tor配置文件
 `nano /etc/tor/torrc`
 ## 按如下示例添加配置选项
@@ -42,25 +43,25 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 去除类似下面行的注释（删除#号即删除注释）
 `SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 `
-## 启动TOR服务
+## 启动TOR服务（可以使用Nyx工具查看连接状态）
 `sudo service tor start`
-## 启动inspircd
+## 启动inspircd并查看状态
 `sudo service inspircd start && sudo service inspircd status`
-## 查看暗网域名并记住
+## 查看onion域名并记住
 `cat /var/lib/tor/my_hidden_service/hostname/hostname`
 # 访问Onion IRC
 ## 添加TOR配置文件
 找到"`C:\Users\baibl\AppData\Roaming\tor`"目录创建一个txt文件 命名为torrc 即tor配置文件 不保留缀名
 在配置文件中写入
-如果你是TOR浏览器：`obfs4 exec ./PluggableTransports/lyrebird.exe`
+如果你是TOR浏览器：`ClientTransport obfs4 exec ./PluggableTransports/lyrebird.exe`
 如果你是TOR专家软件包：`ClientTransport obfs4 exec ./pluggable_transports/lyrebird.exe`
-这里同上
+网桥配置同上
 ```
 Bridge [IP address]:[Port] [fingerprint]
 Bridge 192.0.2.10:9001 AAAA AAAA AAAA AAAA AAAA AAAA AAAA AAAA AAAA AAAA
 Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 ```
-这里同上
+同上
 `UseBridges 1`
 ## 启动客户端上的TOR服务
 如果你是TOR浏览器 右击找到程序的路径 `...\Tor Browser\Browser`然后再进入`...\Tor Browser\Browser\TorBrowser\Tor `里面应该有一个tor.exe文件
