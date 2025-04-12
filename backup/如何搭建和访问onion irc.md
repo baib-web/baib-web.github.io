@@ -52,7 +52,7 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 # 访问Onion IRC
 ## 添加TOR配置文件
 找到"`C:\Users\baibl\AppData\Roaming\tor`"目录创建一个txt文件 命名为torrc 即tor配置文件 不保留缀名
-在配置文件中写入
+在配置文件中写入：
 如果你是Tor浏览器：`ClientTransport obfs4 exec ./PluggableTransports/lyrebird.exe`
 如果你是Tor专家软件包：`ClientTransport obfs4 exec ./pluggable_transports/lyrebird.exe`
 网桥配置同上
@@ -64,10 +64,10 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 同上
 `UseBridges 1`
 ## 启动客户端上的Tor服务
-如果你是Tor浏览器 右击找到程序的路径 `...\Tor Browser\Browser`然后再进入`...\Tor Browser\Browser\TorBrowser\Tor `里面应该有一个tor.exe文件
-如果你是Tor专家软件包 到达文件的/tor目录 里面应该有一个tor.exe文件
-添加一个txt文件 编辑输入文本`tor` 保存并重命名为`start.bat` 点击便可快捷启动Tor服务
-或者在当前目录右击选择在终端打开 键入`tor`指令待输出状态进度到达100%显示done即已连接到TOR路由
+- 如果你是Tor浏览器 右击找到程序的路径 `...\Tor Browser\Browser`然后再进入`...\Tor Browser\Browser\TorBrowser\Tor `里面应该有一个tor.exe文件
+- 如果你是Tor专家软件包 到达文件的/tor目录 里面应该有一个tor.exe文件
+- 添加一个txt文件 编辑输入文本`tor` 保存并重命名为`start.bat` 点击便可快捷启动Tor服务
+- 或者在当前目录右击选择在终端打开 键入`tor`指令待输出状态进度到达100%显示done即已连接到TOR路由
 ## 配置SOCKS5代理
 打开Hexchat
 先配置个人信息
