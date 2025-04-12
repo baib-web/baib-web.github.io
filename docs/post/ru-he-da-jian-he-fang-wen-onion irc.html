@@ -11,7 +11,7 @@
         document.documentElement.setAttribute("data-color-mode", theme);
     </script>
 <meta name="description" content="最近看到一份文章 让我有了折腾的兴致：
-[使用洋葱（TOR）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
+[使用洋葱（Tor）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
 - Tor 网络 (Onion Network): 一种通过多层加密和匿名服务器路由网络流量 以隐藏用户身份和位置的技术
@@ -21,7 +21,7 @@
 # 前置条件
 - 可以魔法上网
 - 一台境外的VPS且搭载了Ubuntu系统
-- 在你要访问Onion IRC的设备上下载[TOR专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
+- 在你要访问Onion IRC的设备上下载[Tor专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
 - 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 # 搭建Onion IRC服务
 ## 安装inspircd和tor
@@ -55,7 +55,7 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 去除类似下面行的注释（删除#号即删除注释）
 `SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 `
-## 启动TOR服务（可以使用Nyx工具查看连接状态）
+## 启动Tor服务（可以使用Nyx工具查看连接状态）
 `sudo service tor start`
 ## 启动inspircd并查看状态
 `sudo service inspircd start && sudo service inspircd status`
@@ -108,7 +108,7 @@ Use proxy for ： All connections
 。">
 <meta property="og:title" content="如何搭建和访问onion irc">
 <meta property="og:description" content="最近看到一份文章 让我有了折腾的兴致：
-[使用洋葱（TOR）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
+[使用洋葱（Tor）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
 - Tor 网络 (Onion Network): 一种通过多层加密和匿名服务器路由网络流量 以隐藏用户身份和位置的技术
@@ -118,7 +118,7 @@ Use proxy for ： All connections
 # 前置条件
 - 可以魔法上网
 - 一台境外的VPS且搭载了Ubuntu系统
-- 在你要访问Onion IRC的设备上下载[TOR专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
+- 在你要访问Onion IRC的设备上下载[Tor专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
 - 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 # 搭建Onion IRC服务
 ## 安装inspircd和tor
@@ -152,7 +152,7 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 去除类似下面行的注释（删除#号即删除注释）
 `SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 `
-## 启动TOR服务（可以使用Nyx工具查看连接状态）
+## 启动Tor服务（可以使用Nyx工具查看连接状态）
 `sudo service tor start`
 ## 启动inspircd并查看状态
 `sudo service inspircd start && sudo service inspircd status`
@@ -274,7 +274,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 </div>
     <div id="content">
 <div class="markdown-body" id="postBody"><p>最近看到一份文章 让我有了折腾的兴致：<br>
-<a href="https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78" rel="nofollow">使用洋葱（TOR）创建隐藏的 IRC 服务器</a></p>
+<a href="https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78" rel="nofollow">使用洋葱（Tor）创建隐藏的 IRC 服务器</a></p>
 <h1>Onion IRC是什么呢</h1>
 <p>我们先拆开来看</p>
 <ul>
@@ -287,7 +287,7 @@ body{box-sizing: border-box;min-width: 200px;max-width: 900px;margin: 20px auto;
 <ul>
 <li>可以魔法上网</li>
 <li>一台境外的VPS且搭载了Ubuntu系统</li>
-<li>在你要访问Onion IRC的设备上下载<a href="https://www.torproject.org/zh-CN/download/tor/" rel="nofollow">TOR专家软件包</a>或<a href="https://www.torproject.org/zh-CN/download/" rel="nofollow">TOR浏览器</a></li>
+<li>在你要访问Onion IRC的设备上下载<a href="https://www.torproject.org/zh-CN/download/tor/" rel="nofollow">Tor专家软件包</a>或<a href="https://www.torproject.org/zh-CN/download/" rel="nofollow">TOR浏览器</a></li>
 <li>在你要访问Onion IRC的设备上安装<a href="https://hexchat.github.io/" rel="nofollow">HexChat</a></li>
 </ul>
 <h1>搭建Onion IRC服务</h1>
@@ -319,7 +319,7 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 <h2>按如下示例修改配置选项</h2>
 <p>去除类似下面行的注释（删除#号即删除注释）<br>
 <code class="notranslate">SocksPort 9050 # Default: Bind to localhost:9050 for local connections. </code></p>
-<h2>启动TOR服务（可以使用Nyx工具查看连接状态）</h2>
+<h2>启动Tor服务（可以使用Nyx工具查看连接状态）</h2>
 <p><code class="notranslate">sudo service tor start</code></p>
 <h2>启动inspircd并查看状态</h2>
 <p><code class="notranslate">sudo service inspircd start &amp;&amp; sudo service inspircd status</code></p>

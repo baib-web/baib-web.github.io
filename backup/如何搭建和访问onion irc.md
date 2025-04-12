@@ -1,5 +1,5 @@
 最近看到一份文章 让我有了折腾的兴致：
-[使用洋葱（TOR）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
+[使用洋葱（Tor）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
 - Tor 网络 (Onion Network): 一种通过多层加密和匿名服务器路由网络流量 以隐藏用户身份和位置的技术
@@ -9,7 +9,7 @@
 # 前置条件
 - 可以魔法上网
 - 一台境外的VPS且搭载了Ubuntu系统
-- 在你要访问Onion IRC的设备上下载[TOR专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
+- 在你要访问Onion IRC的设备上下载[Tor专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
 - 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 # 搭建Onion IRC服务
 ## 安装inspircd和tor
@@ -43,7 +43,7 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 去除类似下面行的注释（删除#号即删除注释）
 `SocksPort 9050 # Default: Bind to localhost:9050 for local connections.
 `
-## 启动TOR服务（可以使用Nyx工具查看连接状态）
+## 启动Tor服务（可以使用Nyx工具查看连接状态）
 `sudo service tor start`
 ## 启动inspircd并查看状态
 `sudo service inspircd start && sudo service inspircd status`
