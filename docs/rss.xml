@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 10:54:05 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 11:01:48 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
 [使用洋葱（TOR）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
 - Tor 网络 (Onion Network): 一种通过多层加密和匿名服务器路由网络流量 以隐藏用户身份和位置的技术
 - IRC: 一种实时的文本聊天协议
 - Onion IRC: 将 IRC 的实时聊天功能与 Tor 网络的匿名性相结合，提供匿名和安全的聊天环境 Onion IRC也是世界最大黑客团体匿名者推荐的通讯方式
-让我们开始学习如何搭建和访问一个onion irc（文章部分会采纳我参考的那片文章）
+让我们开始学习如何搭建和访问一个onion irc（文章部分会采纳我参考的那篇文章）
 # 前置条件
 - 可以魔法上网
 - 一台境外的VPS Ubuntu系统
@@ -18,9 +18,9 @@
 `sudo apt install -y inspircd tor`
 ## 在/etc/inspircd/inspircd.motd中更改您的标题 如果您很懒的话 只需从我的标题中复制即可
 ```
--------------------------------------
-欢迎来到超级秘密聊天
--------------------------------------
+--------------------------------------
+隐私是一项人权 在这里畅所欲言吧
+--------------------------------------
 ```
 ## 编辑tor配置文件
 `nano /etc/tor/torrc`
