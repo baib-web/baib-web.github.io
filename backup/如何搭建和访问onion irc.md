@@ -22,7 +22,7 @@
 --------------------------------------
 ```
 nano编辑器的保存步骤： ctrl x + Y + 回车
-## 编辑tor配置文件
+## 编辑Tor配置文件
 `nano /etc/tor/torrc`
 ## 按如下示例添加配置选项
 定义Tor 管理服务身份和加密材料的位置
@@ -53,8 +53,8 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 ## 添加TOR配置文件
 找到"`C:\Users\baibl\AppData\Roaming\tor`"目录创建一个txt文件 命名为torrc 即tor配置文件 不保留缀名
 在配置文件中写入
-如果你是TOR浏览器：`ClientTransport obfs4 exec ./PluggableTransports/lyrebird.exe`
-如果你是TOR专家软件包：`ClientTransport obfs4 exec ./pluggable_transports/lyrebird.exe`
+如果你是Tor浏览器：`ClientTransport obfs4 exec ./PluggableTransports/lyrebird.exe`
+如果你是Tor专家软件包：`ClientTransport obfs4 exec ./pluggable_transports/lyrebird.exe`
 网桥配置同上
 ```
 Bridge [IP address]:[Port] [fingerprint]
@@ -63,10 +63,11 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 ```
 同上
 `UseBridges 1`
-## 启动客户端上的TOR服务
-如果你是TOR浏览器 右击找到程序的路径 `...\Tor Browser\Browser`然后再进入`...\Tor Browser\Browser\TorBrowser\Tor `里面应该有一个tor.exe文件
-如果你是TOR专家软件包 到达文件的/tor目录 里面应该有一个tor.exe文件
-添加一个txt文件 在里面输入文本`tor`保存并重命名`start.bat`以快捷启动或在当前目录右击点在终端打开 键入`tor`指令输出状态进度到达100%最后显示done即已连接
+## 启动客户端上的Tor服务
+如果你是Tor浏览器 右击找到程序的路径 `...\Tor Browser\Browser`然后再进入`...\Tor Browser\Browser\TorBrowser\Tor `里面应该有一个tor.exe文件
+如果你是Tor专家软件包 到达文件的/tor目录 里面应该有一个tor.exe文件
+添加一个txt文件 编辑输入文本`tor` 保存并重命名为`start.bat` 点击便可快捷启动Tor服务
+或者在当前目录右击选择在终端打开 键入`tor`指令待输出状态进度到达100%显示done即已连接到TOR路由
 ## 配置SOCKS5代理
 打开Hexchat
 先配置个人信息
@@ -78,7 +79,7 @@ Port：9050
 Type：SOCKS5
 Use proxy for ： All connections
 ```
-连接成功后会弹出一个窗口 这时选择创建或加入一个频道 比如#tor
+连接成功后会弹出一个窗口 这时选择创建或加入一个频道 比如#tor 这样就可以开始聊天了
 教程到此结束 现在像一个真正的黑客一样 开始你的隐匿聊天吧
 
 
