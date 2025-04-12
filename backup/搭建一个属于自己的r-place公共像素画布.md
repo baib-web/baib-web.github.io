@@ -1,3 +1,4 @@
+[项目地址](https://github.com/rbxb/place)
 # 安装git
 ```
 sudo apt update
@@ -14,5 +15,5 @@ sudo apt install git
 cd ./place
 go build cmd/place/place.go
 ```
-# 运行 place 并将-root参数设置为web/root目录的位置。
+# 运行 place 并将-root参数设置为web/root目录的位置 端口自定义
 `./place -root web/root -port :8080`

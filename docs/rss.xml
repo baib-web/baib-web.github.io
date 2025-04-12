@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 11:17:14 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Blog Title</title><link>https://baib-web.github.io</link><description>Blog description</description><copyright>Blog Title</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Sat, 12 Apr 2025 11:18:50 +0000</lastBuildDate><managingEditor>Blog Title</managingEditor><ttl>60</ttl><webMaster>Blog Title</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
 [使用洋葱（TOR）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
@@ -143,7 +143,8 @@ localIP = '127.0.0.1'
 localPort = 8100
 #域名
 customDomains = ['你解析的的域名']
-```。</description><guid isPermaLink="true">https://baib-web.github.io/post/wo-de-nei-wang-chuan-tou-gong-yi-xiang-mu-shi-yong-shi-li.html</guid><pubDate>Fri, 07 Mar 2025 03:35:21 +0000</pubDate></item><item><title>搭建一个属于自己的r/place公共像素画布</title><link>https://baib-web.github.io/post/da-jian-yi-ge-shu-yu-zi-ji-de-r-place-gong-gong-xiang-su-hua-bu.html</link><description># 安装git
+```。</description><guid isPermaLink="true">https://baib-web.github.io/post/wo-de-nei-wang-chuan-tou-gong-yi-xiang-mu-shi-yong-shi-li.html</guid><pubDate>Fri, 07 Mar 2025 03:35:21 +0000</pubDate></item><item><title>搭建一个属于自己的r/place公共像素画布</title><link>https://baib-web.github.io/post/da-jian-yi-ge-shu-yu-zi-ji-de-r-place-gong-gong-xiang-su-hua-bu.html</link><description>[项目地址](https://github.com/rbxb/place)
+# 安装git
 ```
 sudo apt update
 sudo apt install git
@@ -159,7 +160,8 @@ sudo apt install git
 cd ./place
 go build cmd/place/place.go
 ```
-# 运行 place 并将-root参数设置为web/root目录的位置。</description><guid isPermaLink="true">https://baib-web.github.io/post/da-jian-yi-ge-shu-yu-zi-ji-de-r-place-gong-gong-xiang-su-hua-bu.html</guid><pubDate>Fri, 28 Feb 2025 14:39:35 +0000</pubDate></item><item><title>节点分享</title><link>https://baib-web.github.io/post/jie-dian-fen-xiang.html</link><description># 美国节点
+# 运行 place 并将-root参数设置为web/root目录的位置 端口自定义
+`./place -root web/root -port :8080`。</description><guid isPermaLink="true">https://baib-web.github.io/post/da-jian-yi-ge-shu-yu-zi-ji-de-r-place-gong-gong-xiang-su-hua-bu.html</guid><pubDate>Fri, 28 Feb 2025 14:39:35 +0000</pubDate></item><item><title>节点分享</title><link>https://baib-web.github.io/post/jie-dian-fen-xiang.html</link><description># 美国节点
 
 `trojan://9UM9G0GdC9@148.135.66.234:25593?type=ws&amp;path=%2F&amp;host=&amp;security=none#j7xxygpz`
 
