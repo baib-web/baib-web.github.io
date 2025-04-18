@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Aipio的数字花园</title><link>https://baib-web.github.io</link><description>我的文章</description><copyright>Aipio的数字花园</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Fri, 18 Apr 2025 06:00:26 +0000</lastBuildDate><managingEditor>Aipio的数字花园</managingEditor><ttl>60</ttl><webMaster>Aipio的数字花园</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Aipio的数字花园</title><link>https://baib-web.github.io</link><description>我的文章</description><copyright>Aipio的数字花园</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Fri, 18 Apr 2025 08:01:45 +0000</lastBuildDate><managingEditor>Aipio的数字花园</managingEditor><ttl>60</ttl><webMaster>Aipio的数字花园</webMaster><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
 [使用洋葱（Tor）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
 我们先拆开来看 
@@ -172,9 +172,10 @@ go build cmd/place/place.go
 `
 # CF Page
 
+## vless协议通用
 `https://vless.luwul.ip-ddns.com/e46c7ae1-f71b-4339-9816-a586317efbff?sub=VLESS.fxxk.dedyn.io#CF1
 `
-
+## trojan协议通用
 `https://trojan.luwul.ip-ddns.com/2906c62a-ebbc-4401-8153-ed23d0a7fa2e?sub=VLESS.fxxk.dedyn.io#CF2
 `
 # tg代理
