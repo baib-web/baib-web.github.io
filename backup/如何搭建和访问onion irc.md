@@ -6,12 +6,9 @@
 - IRC: 一种实时的文本聊天协议
 - Onion IRC: 将 IRC 的实时聊天功能与 Tor 网络的匿名性相结合，提供匿名和安全的聊天环境 
 - Onion IRC是世界最大黑客组织匿名者推荐的通讯聊天方式
-# 前置条件
-- 可以魔法上网
-- 一台境外的VPS且搭载了Ubuntu系统
-- 在你要访问Onion IRC的设备上下载[Tor专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
-- 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 # 搭建Onion IRC服务
+## 前置条件
+- 一台境外的VPS且搭载了Ubuntu系统
 ## 安装inspircd和tor
 `sudo apt install -y inspircd tor`
 ## 更改您的标题 如果您很懒的话 只需从我的标题中复制即可
@@ -50,6 +47,10 @@ Bridge 203.0.113.42:443 BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB BBBB
 ## 查看onion域名并记住
 `cat /var/lib/tor/my_hidden_service/hostname/hostname`
 # 访问Onion IRC
+## 前置条件
+- 可以魔法上网
+- 在你要访问Onion IRC的设备上下载[Tor专家软件包](https://www.torproject.org/zh-CN/download/tor/)或[TOR浏览器](https://www.torproject.org/zh-CN/download/)
+- 在你要访问Onion IRC的设备上安装[HexChat](https://hexchat.github.io/)
 ## 添加TOR配置文件
 找到"`C:\Users\baibl\AppData\Roaming\tor`"目录创建一个txt文件 命名为torrc 即tor配置文件 不保留缀名
 在配置文件中写入：
