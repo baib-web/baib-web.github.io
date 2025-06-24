@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Aipio的数字花园</title><link>https://baib-web.github.io</link><description>我的文章</description><copyright>Aipio的数字花园</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Thu, 22 May 2025 15:43:25 +0000</lastBuildDate><managingEditor>Aipio的数字花园</managingEditor><ttl>60</ttl><webMaster>Aipio的数字花园</webMaster><item><title>我的群组</title><link>https://baib-web.github.io/post/wo-de-qun-zu.html</link><description>[我的tg群](https://t.me/+tHwy0l17hJA5YWE1)
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Aipio的数字花园</title><link>https://baib-web.github.io</link><description>我的文章</description><copyright>Aipio的数字花园</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://github.githubassets.com/favicons/favicon.svg</url><title>avatar</title><link>https://baib-web.github.io</link></image><lastBuildDate>Tue, 24 Jun 2025 07:42:28 +0000</lastBuildDate><managingEditor>Aipio的数字花园</managingEditor><ttl>60</ttl><webMaster>Aipio的数字花园</webMaster><item><title>我的群组</title><link>https://baib-web.github.io/post/wo-de-qun-zu.html</link><description>[我的tg群](https://t.me/+tHwy0l17hJA5YWE1)
 我的QQ群：1048094204 关键字Aipio的英灵殿。</description><guid isPermaLink="true">https://baib-web.github.io/post/wo-de-qun-zu.html</guid><pubDate>Thu, 22 May 2025 15:42:54 +0000</pubDate></item><item><title>如何搭建和访问onion irc</title><link>https://baib-web.github.io/post/ru-he-da-jian-he-fang-wen-onion%20irc.html</link><description>最近看到一份文章 让我有了折腾的兴致：
 [使用洋葱（Tor）创建隐藏的 IRC 服务器](https://infosecwriteups.com/create-a-hidden-irc-server-with-the-onion-router-tor-c839e3a81d78)
 # Onion IRC是什么呢 
@@ -173,11 +173,11 @@ go build cmd/place/place.go
 `https://v2c.youzhidanbairu.cloudns.biz/sub?url=vless%3A%2F%2Fbb703d5e-3da3-4894-8c7e-cbb354e2394c%40148.135.66.234%3A443%3Ftype%3Dtcp%26security%3Dreality%26pbk%3DrDx8kFu8s2ymCxXL_s5w8IdnRG7H15Uf4uIDY_rfkjI%26fp%3Dchrome%26sni%3Dtesla.com%26sid%3D13bce6e6adaf56%26spx%3D%252F%23pkmnyc9e`
 # CF Page
 
-## vless协议通用
-`https://vless.luwul.ip-ddns.com/e46c7ae1-f71b-4339-9816-a586317efbff?sub=VLESS.fxxk.dedyn.io#CF1
+## 通用
+`https://subs.youzhidanbairu.dpdns.org/download/sub
 `
-## trojan协议通用
-`https://trojan.luwul.ip-ddns.com/2906c62a-ebbc-4401-8153-ed23d0a7fa2e?sub=VLESS.fxxk.dedyn.io#CF2
+## clash
+`https://subs.youzhidanbairu.dpdns.org/api/file/mihomo
 `
 # tg代理
 
